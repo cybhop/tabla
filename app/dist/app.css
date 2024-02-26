@@ -58,7 +58,7 @@ p {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 80px;
   transform: scale(1);
 }
 
@@ -191,7 +191,7 @@ h6,
 
 .row {
   margin-right: -15px;
-  margin-left: 0px;
+  margin-left: 30px;
 }
 
 ul, li {
@@ -884,7 +884,7 @@ form button {
 }
 .header .main-nav {
   position: absolute;
-  left: 22%;
+  left: 25%;
   top: 52%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -3121,15 +3121,14 @@ form button {
   padding: 150px 0 134px;
 }
 .location .image {
-  width: 395px;
+  width: 455px;
   height: 455px;
-  min-width: 396px;
+  min-width: 431px;
   border-radius: 50%;
   border: 1px solid #e6c9a2;
   overflow: hidden;
   padding: 12px;
   margin-top: 27px;
-  margin-right: 30px;
 }
 .location .image img {
   width: 100%;
@@ -3910,8 +3909,8 @@ form.s1 button:hover {
 
 .p-about .chef-restaurant {
   background: rgb(249, 241, 232);
-  padding: 129px 0 30px;
-  margin-bottom: 10px;
+  padding: 129px 0 308px;
+  margin-bottom: -235px;
 }
 .p-about .chef-restaurant .menu-content {
   padding: 0 290px;
@@ -11279,7 +11278,5 @@ img.mfp-img {
 /*# sourceMappingURL=app.css.map */
 
 
-.collapse-show{
-   background-color: rgb(230, 201, 162);
-}
+
 
