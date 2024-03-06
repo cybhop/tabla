@@ -1,0 +1,90 @@
+/* wg-about-hour */
+/* ----------------------------------- */
+.wg-about-hour {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.wg-about-hour > .wrap {
+    display: flex;
+    max-width: 1475px;
+    margin: auto;
+}
+
+.wg-about-hour > .wrap > div {
+    width: 100%;
+}
+
+.wg-about-hour .right,
+.wg-about-hour .left {
+    max-width: 442px;
+}
+
+.wg-about-hour  ul.list-content li p {
+    margin-bottom: 5px;
+}
+
+.wg-about-hour .center {
+    margin-left: 61px;
+    margin-right: 10px;
+}
+
+.wg-about-hour .content {
+    text-align: center;
+    padding-top: 61px;
+}
+
+.wg-about-hour .content .heading-section .sub {
+    margin-bottom: 8px;
+}
+
+.wg-about-hour .content .heading-section .main {
+    margin-top: 8px;
+}
+
+.wg-about-hour .content .heading-section .divider {
+    margin-top: 29px;
+}
+
+.wg-about-hour .content .heading-section .description {
+    margin-bottom: 19px;
+}
+
+.wg-about-hour .content > p {
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+
+.wg-about-hour .content > img {
+    margin-top: 6px;
+    margin-left: 39px;
+}
+
+.wg-about-hour .content .author {
+    font-family: 'CerebriSans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 11px;
+    margin-left: 24px;
+}
+
+.wg-about-hour .content .author a {
+    color: #FFF;
+}
+
+.wg-about-hour .content .author a:hover {
+    color: #c6ac83;
+}
+
+.wg-about-hour .content ul li:last-child {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.wg-about-hour .image img {
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+}

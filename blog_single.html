@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basilico - Restaurant HTML Template</title>
+    <link rel="stylesheet" href="app/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="app/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="app/dist/app.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/favicon.png">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+
+<body class="main header-fixed ">
+    <!-- preloade -->
+    <div class="preloader">
+        <div class="clear-loading loading-effect-2">
+            <span></span>
+        </div>
+    </div>
+    <!-- /preload -->
+    <div id="wrapper">
+
+        <div class="top-bar-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-header">
+                            <div class="contact-left">
+                                <div class="icon"><i class="fa fa-utensils"></i></div>
+                                <div class="t">
+                                    <p>Basilicofood123@gmail.com </p>
+                                    <p>+(406) 555-0120</p>
+                                </div>
+                            </div>
+                            <div class="header__logo">
+                                <a href="index.html"><img src="assets/images/logo/logo-02.png" alt=""></a>
+                            </div>
+                            <div class="contact-right">
+                                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="t">
+                                    <p>4517 Washington Ave. Manchester,
+
+                                    </p>
+                                    <p>Kentucky 39495, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end Top bar -->
+        <!-- Header -->
+        <header id="header_main" class="header style-2">
+            <div class="container">
+
+                <div id="site-header-inner" class="site-header-inner">
+                    <div class="search-form">
+                        <div class="input-box">
+                            <input type="text" placeholder="Search..." />
+                            <span class="search">
+                                <i class="fa fa-search"></i>
+                            </span>
+                            <i class="fa fa-x close-icon"></i>
+
+                        </div>
+
+                    </div>
+
+                    <nav id="main-nav" class="main-nav">
+                        <ul id="menu-primary-menu" class="menu">
+                            <li class="menu-item menu-item-has-children  ">
+                                <a href="#">Home</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="index.html">Home 01</a></li>
+                                    <li class="menu-item "><a href="home_02.html">Home 02</a></li>
+                                    <li class="menu-item"><a href="home_03.html">Home 03</a></li>
+                                    <li class="menu-item"><a href="home_04.html">Home 04</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="menu-item menu-item-has-children ">
+                                <a href="#">Pages</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="404.html">Page 404</a></li>
+                                    <li class="menu-item"><a href="about.html">About</a></li>
+                                    <li class="menu-item"><a href="careers.html">Careers</a></li>
+                                    <li class="menu-item"><a href="coming_soon.html">Coming Soon</a></li>
+                                    <li class="menu-item"><a href="faq.html">Faqs</a></li>
+                                    <li class="menu-item"><a href="gallery.html">Gallery</a></li>
+                                    <li class="menu-item"><a href="history.html">History</a></li>
+                                    <li class="menu-item"><a href="location.html">Location</a></li>
+                                    <li class="menu-item"><a href="gift_vouchers.html">Gift Vouchers</a></li>
+                                    <li class="menu-item"><a href="gift_vouchers_detail.html">Gift Detail</a></li>
+
+                                </ul>
+
+                            </li>
+                            <li class="menu-item menu-item-has-children ">
+                                <a href="#">Menu</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item "><a href="menu_list.html">Menu List</a></li>
+                                    <li class="menu-item"><a href="menu_zigzag.html">Menu Zingzag</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children ">
+                                <a href="#">Portfolio</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="colums_full_width.html">Portfolio Full Width</a></li>
+                                    <li class="menu-item "><a href="portfolio_carousel.html">Portfolio Carousel</a></li>
+                                    <li class="menu-item"><a href="portfolio_mansonry.html">Portfolio Mansonry</a></li>
+                                    <li class="menu-item"><a href="portfolio_three_colum.html">Portfolio Three Colum</a>
+                                    </li>
+                                    <li class="menu-item"><a href="portfolio_detail.html">Portfolio Details</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="menu-item menu-item-has-children current-menu-item">
+                                <a href="#">Blog</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item "><a href="blog_creative.html">Blog Creative</a></li>
+                                    <li class="menu-item"><a href="blog_full_width.html">Blog Full Width</a></li>
+                                    <li class="menu-item"><a href="blog_list.html">Blog List</a></li>
+                                    <li class="menu-item"><a href="blog_right_sidebar.html">Blog Right Sidebar</a></li>
+                                    <li class="menu-item current-item"><a href="blog_single.html">Blog Detail</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">Contact</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="contact_01.html">Contact 01</a></li>
+                                    <li class="menu-item"><a href="contact_02.html">Contact 02</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav><!-- /#main-nav -->
+
+                    <div class="sidebar-btn">
+                        <a class="btn-side">
+                            <span></span>
+                        </a>
+                        <div class="sidebar-content">
+                            <img class="mb-50" src="assets/images/logo/logo-sidebar.png" alt="">
+                            <p class="mb-46">
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+                                dis parturient montes, nascetur ridiculus mus.
+                            </p>
+                            <h4 class="mb-11">+(406) 555-0120</h4>
+                            <p class="mb-5p">Andé Restaurant 767 5th Avenue, Paris 10021, France</p>
+                            <p class="mb-30">Brochetterestaurant@gmail.com</p>
+                            <div class="line"></div>
+                            <p>Opening Hour: <br />
+                                Mon - Fri : 9.00am - 22.00pm, Holidays : Close</p>
+                            <div class="line"></div>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
+                </div>
+            </div>
+        </header>
+
+        <section class="page-title p-blog-full">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                        <div class="page-title-main">
+                            <h2 class="title">blog single</h2>
+
+                            <ul class="breacrumd">
+                                <li><a href="index.html">home </a></li>
+                                <li>/</li>
+                                <li>blog single</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-sidebar blog-single">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="blog-sidebar-main">
+                            <div class="main-content">
+                                <div class="blog-box-2">
+                                    <a href="#" class="image">
+                                        <img src="assets/images/section/blog-01.jpg" alt="">
+                                    </a>
+                                    <div class="meta">
+                                        <ul>
+                                            <li><a href="#">Written by <span>Johnson Marthon</span> </a></li>
+                                            <li><a href="#">October 5, 2023</a></li>
+                                            <li><a href="#">World restaurants, Food</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="content">
+                                        <a href="blog_single.html" class="h4 title"> The Impact of The New Steps of
+                                            Service </a>
+                                        <div class="line"></div>
+                                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                            eiusmod tempor incididunt utlabor met dolore magna sens aliqua. Ut enim ad
+                                            minim veniam, quis nostrud exercitation ullamco labori nisi ut aliquip ex ea
+                                            commodo consequat.
+
+                                        </p>
+                                        <p>Mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error
+                                            sit voluptatem accusant tium doloremque laudan tiumotam rem aperiam aq ue
+                                            ipsa quae ab illo inventore veritatis etquai sarchitecto beatae vitae dicta
+                                            sunt expli cabos Nemoenim ipsam voluptatem quia voluptas sitasper.</p>
+
+                                    </div>
+
+                                    <div class="author">
+                                        <h6>“ How many times have you heard that paper is matter of the past? Obviously,
+                                            this panorama is not so drastic. From time to time we want to have the
+                                            pleasure to hold a good ”</h6>
+                                        <p>Justin Byonce - Quote</p>
+                                    </div>
+                                    <p class="text">
+                                        Suspendisse non tempor est. Nunc hendrerit vestibulum neque id semper. Morbi sed
+                                        pulvinar purus. Pellentesque dictum, nunc vel molestie cursus, erat quam
+                                        volutpat erat, sit amet aliquet ligula nisi non enim. Ut rhoncus eget est sit
+                                        amet interdum. Mauris malesuada ac massa pulvinar viverra.
+                                    </p>
+                                    <h5>Multichannel Ordering</h5>
+                                    <p class="text mb-27">Aenean interdum eleifend eros eget rhoncus. Morbi lectus arcu,
+                                        viverra eu lacus ornare, dictum euismod nunc. Fusce luctus tempor dui feugiat
+                                        pellentesque. Duis velit diam, hendrerit sit amet rutrum sed, rhoncus in dui.
+                                        Praesent tellus diam, luctus sed enim at, sollicitudin consectetur leo.</p>
+                                    <div class="d-flex">
+                                        <img src="assets/images/section/blog-single-1.jpg" alt="">
+                                        <img src="assets/images/section/blog-single-2.jpg" alt="">
+
+                                    </div>
+                                    <p class="text mb-23">Etiam lobortis eget ex in cursus. In rutrum massa libero, eget
+                                        rutrum enim dignissim nec. Nam eu euismod felis. Fusce placerat leo congue augue
+                                        malesuada pulvinar. Donec id rhoncus enim. Vivamus at felis eu dolor semper
+                                        porttitor. Nullam blandit arcu eget tellus dictum vulputate. </p>
+                                    <ul class="list">
+                                        <li>organize a wedding </li>
+                                        <li>custom decoration </li>
+                                        <li>your special event </li>
+                                        <li>Private dining room & private service</li>
+                                    </ul>
+                                    <p class="text mb-0">Etiam venenatis lectus id lorem sagittis, eu pretium leo
+                                        tempor. Proin lobortis ornare mauris, eget pellentesque libero feugiat non. Sed
+                                        fermentum nibh at placerat aliquam.</p>
+
+                                </div>
+                                <div class="bottom">
+                                    <div class="tag">
+                                        <p>TAGS: World restaurants, Food, Restaurant</p>
+                                    </div>
+                                    <div class="share">
+                                        <p>Share 1.2k:</p>
+                                        <ul class="list-social">
+                                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="comment">
+                                    <h4>comments</h4>
+                                    <div class="author">
+                                        <div class="top">
+                                            <div class="image">
+                                                <img src="assets/images/section/avt-1.jpg" alt="">
+                                            </div>
+                                            <div class="info">
+                                                <h5>Margaret</h5>
+                                                <p>July 29, 2019 at 7:35 am</p>
+                                            </div>
+
+                                            <a href="#" class="reply"><i class="fa fa-share"></i> Reply</a>
+                                        </div>
+                                        <p>“ Sed vitae velit erat. Pellentesque lobortis felis vel mi congue, in
+                                            sollicitudin orci tincidunt. Praesent turpis justo, posuere eget justo sit
+                                            amet, efficitur suscipit elit. “</p>
+                                    </div>
+
+                                    <div class="post-comment">
+                                        <h4> POST A COMMENT</h4>
+                                        <p>Your email address will not be published. Required fields are marked *</p>
+
+                                        <form>
+
+
+
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+
+                                                    <input type="text" class="form-control" id="inputName"
+                                                        placeholder="Name*">
+                                                </div>
+                                                <div class="form-group col-md-6">
+
+                                                    <input type="text" class="form-control" id="inputEmail"
+                                                        placeholder="Email*">
+                                                </div>
+
+                                            </div>
+
+                                            <div class="form-group">
+                                                <textarea placeholder="Write comment..." name="" id="" cols="30"
+                                                    rows="10"></textarea>
+                                            </div>
+
+
+
+
+                                            <button type="submit" class="tf-button style3">post comment</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-sidebar">
+                                <div class="widget avt">
+                                    <div class="image">
+                                        <img src="assets/images/section/avt.jpg" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <p class="unit">Editor</p>
+                                        <h5 class="name">Kevil Charlie’s</h5>
+                                        <p>Sed faucibus a mi vitae pharetra. Curabitur placerat rhoncus mi. Donec sit
+                                            amet bibendum risus.</p>
+
+                                    </div>
+                                    <form class="s1">
+                                        <div class="form-group ">
+
+                                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Write content">
+
+                                        </div>
+
+
+                                        <button type="submit" class="btn btn-primary"><i
+                                                class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
+
+                                <div class="widget category">
+                                    <div class="heading-top">
+                                        <h5>categories</h5>
+                                    </div>
+                                    <div class="content">
+                                        <ul>
+                                            <li><a href="#">Food</a></li>
+                                            <li class="active"><a href="#">Industry expertise</a></li>
+                                            <li><a href="#">Restaurants</a></li>
+                                            <li><a href="#">Fast Casual Restaurants</a></li>
+                                            <li><a href="#">Casual Dining</a></li>
+                                            <li><a href="#">Pizzerias</a></li>
+                                            <li><a href="#">Coffee’s </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="widget latest">
+                                    <div class="heading-top">
+                                        <h5>LATEST POSTS</h5>
+                                    </div>
+                                    <div class="content">
+                                        <ul>
+                                            <li>
+                                                <div class="img">
+                                                    <img src="assets/images/section/blog-01.jpg" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <a href="#" class="title">How to lock in beverage consistency</a>
+                                                    <a href="#" class="meta">Adam John - June 6, 2022</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="img">
+                                                    <img src="assets/images/section/blog-02.jpg" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <a href="#" class="title">How Great Greek CEO is controlling</a>
+                                                    <a href="#" class="meta">Adam John - June 6, 2022</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="img">
+                                                    <img src="assets/images/section/blog-03.jpg" alt="">
+                                                </div>
+                                                <div class="info">
+                                                    <a href="#" class="title">White Castle among businesses</a>
+                                                    <a href="#" class="meta">Adam John - June 6, 2022</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="widget tag">
+                                    <div class="heading-top">
+                                        <h5>tags</h5>
+                                    </div>
+                                    <div class="content">
+                                        <ul>
+                                            <li><a class="active" href="#">Fitness Power</a></li>
+                                            <li><a href="#">Martial Arts </a></li>
+                                            <li><a href="#">Healthy</a></li>
+                                            <li><a href="#">Trainning </a></li>
+                                            <li><a href="#">Gym </a></li>
+                                            <li><a href="#">Cardio</a></li>
+                                            <li><a href="#">Functional</a></li>
+                                            <li><a href="#">Yoga</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="widget newletters">
+                                    <div class="heading-top">
+                                        <h5>NewLetters</h5>
+                                    </div>
+                                    <div class="content">
+
+                                        <p>Subscribe to receive the latest news from us </p>
+                                        <form class="s1">
+                                            <div class="form-group ">
+
+                                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp" placeholder="Write content">
+
+                                            </div>
+
+
+                                            <button type="submit" class="btn btn-primary"><i
+                                                    class="fa fa-paper-plane"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer style-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="widget locations">
+                            <h5>we are here</h5>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <span>Location:</span> 4517 Washington Ave. Manchester, Kentucky 39495, USA
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>book a table:
+                                        </span>
+                                        Basilicofood123@gmail.com
+                                    </p>
+
+                                    <p class="cl">978-212-8600</p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="widget logo">
+                            <img src="assets/images/logo/logofooter.png" alt="">
+                            <p>Our buzzy food-hall style concept is inspired by international dining styles, especially
+                                in Asia. Explore the following fast-action food stations as busy chefs perform.
+
+                            </p>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="widget time  pd-n">
+                            <h5>opening time</h5>
+                            <ul>
+                                <li>Mon - Fri : 9:00am - 22:00pm</li>
+                                <li>Sat: 10:00am - 23:00pm</li>
+                                <li>Sun: 5:00pm - 23:00pm</li>
+                                <li>Holidays: Closed</li>
+                                <li>Happy Hours: 18:00pm - 20:00pm</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row bottom-footer">
+                    <div class="bottom-main">
+                        <p>© Copyright Themesflat for Restaurant & Bistro</p>
+
+                        <ul>
+                            <li><a href="about.html">ABOUT US</a></li>
+                            <li><a href="menu_list.html">MENU</a></li>
+                            <li><a href="blog_right_sidebar.html">Blog</a></li>
+                            <li><a href="contact_01.html">CONTACT US</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+    <a id="scroll-top"></a>
+    <script src="app/js/jquery.min.js"></script>
+    <script src="app/js/swiper-bundle.min.js"></script>
+    <script src="app/js/swiper.js"></script>
+    <script src="app/js/app.js"></script>
+    <script src="app/js/jquery.easing.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app/js/parallax.js"></script>
+    <script src="app/js/jquery.magnific-popup.min.js"></script>
+    <script src="app/js/bootstrap.min.js"></script>
+
+    <script src="app/js/count-down.js"></script>
+    <script src="app/js/countto.js"></script>
+
+</body>
+
+</html>
