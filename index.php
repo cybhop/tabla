@@ -262,7 +262,7 @@
                            
                                  </div>
                                     
-                       <div id="process">
+                       <!---<div id="process">
                             <div class="row">
                        
                             </div>
@@ -411,7 +411,7 @@
                               </li>
                           </ul>
 
-                       </section> 
+                       </section> --->
 
                           <!-- Process Section -->
 <section id="process-step" class="section-content bg3" style="margin-top: 30px;">
@@ -425,9 +425,9 @@
             <ol class="process-flow list-unstyled">
                 <li class="active">
                 <div class="process-node active">
-                    <i class="fa-solid fa-comments fa-3x"></i>
+                    <i class="fa-solid fa-comments fa-3x" style="color: #FFD700"></i>
                 </div>
-                <h4>Chat With Us</h4>
+                <h4 style="color: white;">Chat With Us</h4>
                 <p>
                      Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                 </p>
@@ -439,9 +439,9 @@
                 <li class="active">
                 <div class="process-node active">
                 
-                    <i class="fa-solid fa-file-lines fa-3x" ></i>
+                    <i class="fa-solid fa-file-lines fa-3x" style="color: #FFD700"></i>
                 </div>
-                <h4>Recieve Our FDD</h4>
+                <h4 style="color: white;">Recieve Our FDD</h4>
                 <p>
                      Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                 </p>
@@ -452,9 +452,9 @@
                 </li>
                 <li class="active">
                 <div class="process-node active">
-                    <i class="fa-solid fa-map-location-dot fa-3x" ></i>
+                    <i class="fa-solid fa-map-location-dot fa-3x" style="color: #FFD700"></i>
                 </div>
-                <h4>Visit Us</h4>
+                <h4 style="color: white;">Visit Us</h4>
                 <p>
                      Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                 </p>
@@ -465,9 +465,9 @@
                 </li>
                 <li class="active">
                 <div class="process-node active">
-                    <i class="fa-solid fa-thumbs-up fa-3x" ></i>
+                    <i class="fa-solid fa-thumbs-up fa-3x" style="color: #FFD700"></i>
                 </div>
-                <h4>Become Approved for Ownership</h4>
+                <h4 style="color: white;">Become Approved for Ownership</h4>
                 <p>
                      Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                 </p>
@@ -478,9 +478,9 @@
                 </li>
                 <li class="active">
                 <div class="process-node active">
-                    <i class="fa-solid fa-briefcase fa-3x" ></i>
+                    <i class="fa-solid fa-briefcase fa-3x" style="color: #FFD700"></i>
                 </div>
-                <h4>Onboarding and Training</h4>
+                <h4 style="color: white;">Onboarding and Training</h4>
                 <p>
                      Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
                 </p>
@@ -570,7 +570,7 @@
                 </div>
             </div>
         </section>
-		        <section class="s-services">
+		        <section class="s-services" style="margin-top: 30px;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
