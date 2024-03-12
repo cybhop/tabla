@@ -4713,7 +4713,7 @@ form.s1 button:hover {
   flex-wrap: wrap;
 }
 .vouchers-details .vouchers-details-main .left {
-  width: 67%;
+  width: 65%;
   padding-right: 15px;
 }
 .vouchers-details .vouchers-details-main .left .img {
@@ -11233,8 +11233,8 @@ img.mfp-img {
 /*timeline css 1 */
 #process {
   margin-bottom: 40px;
-  overflow-x: hidden;
-  padding-right: 30px;
+  margin-top: 60px;
+  padding-right: 50px;
 }
 
 #process .section-heading {
@@ -11310,7 +11310,7 @@ img.mfp-img {
 
 @media(min-width: 900px) {
   .steps-timeline {
-    border-top: 5px double #fc6429;
+    border-top: 5px double rgb(137, 36, 48);
     padding-top: 20px;
     margin-top: 40px;
     margin-left: 3%;
@@ -11331,7 +11331,7 @@ img.mfp-img {
     border-radius: 50%;
     background: transparent;
     margin-left: 39%;
-    border: 2px solid #fc6429;
+    border: 2px solid rgb(137, 36, 48);
   }
   .verticle-line {
     position: absolute;
@@ -11345,7 +11345,7 @@ img.mfp-img {
     width: 25px;
     margin: 11px 10.1px;
     border-radius: 50%;
-    background: #fc6429;
+    background: rgb(137, 36, 48);
   }
   .end-circle {
     height: 15px;
@@ -11448,11 +11448,11 @@ img.mfp-img {
 }
 
 .back-orange {
-  background: #fc6429;
+  background: rgb(137, 36, 48);
 }
 
 .back-blue {
-  background: rgb(59, 37, 132);
+  background: rgb(137, 36, 48);
 }
 
 
@@ -11471,6 +11471,7 @@ img.mfp-img {
   width: 100%;
   padding: 0 15px;
   text-align: center;
+  margin-top: 100px;
 }
 .process__item {
   -webkit-user-select: none;
@@ -11486,11 +11487,11 @@ img.mfp-img {
 }
 .process__item:hover .process__number {
   transform: translateY(5px);
-  color: #003c71;
+  color: rgb(137, 36, 48);
 }
 .process__number {
   font-size: 90px;
-  -webkit-text-stroke: 1px #003c71;
+  -webkit-text-stroke: 1px rgb(137, 36, 48);
   display: block;
   color: transparent;
   font-family: "Roboto Condensed";
@@ -11503,7 +11504,7 @@ img.mfp-img {
   font-weight: 700;
   letter-spacing: 1.5px;
   font-size: 30px;
-  color: #003c71;
+  color: rgb(137, 36, 48);
   text-transform: uppercase;
   margin-top: 30px;
 }
@@ -11511,7 +11512,7 @@ img.mfp-img {
   display: block;
   font-family: "Josefin Slab";
   font-size: 20px;
-  color: #8c8c8c;
+  color: rgb(137, 36, 48);
   margin-top: 30px;
   line-height: 1.5;
 }
@@ -11601,7 +11602,7 @@ img.mfp-img {
 	opacity: 0;
 }
 .process-node.active {
-	background: none repeat scroll 0 0 #FC6F5C;
+	background: none repeat scroll 0 0 rgb(137, 36, 48);
 }
 .process-node.active i:first-child {
 	opacity: 0;
