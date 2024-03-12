@@ -2,8 +2,19 @@
 <html lang="en">
 
 <head>
+    <?php 
+    
+    include 'DB.php';
+    $url = basename($_SERVER['REQUEST_URI']);
+    //get meta tag
+    $metaqry = "SELECT * from meta_tag where meta_url='$url'";
+    $metares = mysqli_query($con, $metaqry);
+    $metadata= mysqli_fetch_assoc($metares);
+    ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="<?php echo $metadata['meta_keywords'] ?>">
+    <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla Franchise</title>
     <link rel="stylesheet" href="app/bootstrap/css/bootstrap.css">
