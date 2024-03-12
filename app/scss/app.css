@@ -11472,6 +11472,8 @@ img.mfp-img {
   padding: 0 15px;
   text-align: center;
   margin-top: 100px;
+  justify-content: space-between;
+
 }
 .process__item {
   -webkit-user-select: none;
@@ -11503,7 +11505,8 @@ img.mfp-img {
   font-family: "Roboto Condensed";
   font-weight: 700;
   letter-spacing: 1.5px;
-  font-size: 30px;
+  text-align: center;
+  font-size: 20px;
   color: rgb(137, 36, 48);
   text-transform: uppercase;
   margin-top: 30px;
@@ -11530,10 +11533,9 @@ img.mfp-img {
   .process-step {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
   }
   .process__item {
-    width: 100%;
+    width: 100px;
   }
   .process__item:not(:last-of-type)::after {
     content: "";
