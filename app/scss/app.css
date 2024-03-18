@@ -899,7 +899,11 @@ form button {
 }
 .header.style-3 .tf-button.style1 {
   background-image: linear-gradient(160deg, transparent 50%, #e6c9a2 50%);
+  visibility: hidden;
 }
+
+
+
 .header.style-3 #main-nav {
   left: 24.1%;
 }
@@ -1077,6 +1081,7 @@ form button {
   background: #892430;
 }
 
+
 /* Header Fixed
 -------------------------------------------------------------- */
 #header_main.is-fixed {
@@ -1090,6 +1095,11 @@ form button {
   background: #892430;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), inset 0px 1px 0px #ECECEC;
 }
+
+#header_main.is-fixed.is-small .tf-button.style1{
+  visibility: visible;
+}
+
 #header_main.is-fixed.is-fixed.is-small {
   top: -1px;
   opacity: 1;
@@ -7239,7 +7249,7 @@ form.s2 a::before {
   line-height: 46px;
 }
 .home-3 .mySwiper .container {
-  max-width: 1200px;
+  max-width: 1700px;
 }
 .home-3 .mySwiper .swiper-button-next {
   top: 52.5%;
@@ -11208,6 +11218,7 @@ img.mfp-img {
   }
 
 }
+
 
 
 

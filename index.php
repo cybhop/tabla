@@ -68,7 +68,7 @@
                             </li>
                         </ul>
                     </nav><!-- /#main-nav -->
-                    <a href="#" class="tf-button style1" style="margin-top: 50px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Own a Tabla</a>
+                    <a href="#" id="tabla-btn" class="tf-button style1" style="margin-top: 50px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Own a Tabla</a>
 
                     <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
                 </div>
@@ -145,7 +145,7 @@
                     </div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-8">
                                 <div class="box-slider">
                                     <div class="content-box" style="margin-top: -50px;">
                                         <h2 class="title">Welcome to TABLA
@@ -164,6 +164,74 @@
 
                                 </div>
                             </div>
+                            <div class="col-md-4 question" style="padding: 20px 20px; background-color: white; background-color: rgba(255,255,255,0.5); height: 900px;">
+                                    <div class="top" >
+                                        <h5 style="font-size: 40px; text-align: center; margin-top: 30%;">Own A Tabla</h5>
+                                    </div>
+                                    <div class="main">
+                                        <form action="" class="s2" id="own-tabla1" method="GET"  onsubmit="return ownSubmit();">
+                                            <p></p>
+                                            <form>
+                                                <div class="form-group">
+													<div class="row g-6">
+													 <div class="col">
+                                                       <input type="text" class="form-control" id="name" placeholder="Name*" style="color: black;" required />
+													  </div>
+                                                    </div> 
+                                                    <div class="row g-6">
+												    	<div class="col">
+                                                       <input type="text" class="form-control" id="phone" placeholder="Phone*" style="color: black;" required />
+													  </div>
+													</div>
+                                                    <input type="email" class="form-control" id="email" placeholder="mail@*" style="color: black;" required />
+                                                     <div class="row g-3">
+													 <div class="col">
+                                                    <input type="text" class="form-control" id="city" placeholder="City, State*" style="color: black;" required />
+													</div>
+													<div class="col">
+                                                    <input type="text" class="form-control" id="area" placeholder="Area*" style="color: black;" />
+													</div>
+													</div>
+
+                                                    <select class="form-control" id="franchiseModel" style="border: 1px solid #892430; border-radius: 0; color: #892430;  margin-bottom: 19px; box-shadow: none;  background: #fff;">
+                                                        <option selected>
+                                                            Fine Dine Model
+                                                        </option>
+                                                        <option >
+                                                            Cafe Model
+                                                         </option>
+                                                        <option >Both
+                                                        </option>
+                
+                                                    </select>
+                                                   <select class="form-control" id="liquidity" style="border: 1px solid #892430; border-radius: 0; color: #892430;  margin-bottom: 19px; box-shadow: none;  background: #fff;">
+                                                        <option >
+                                                            Liquidity: $25,000
+                                                        </option>
+                                                        <option selected >
+                                                             Liquidity: Prefer not to say
+                                                         </option>
+                                                        <option > Liquidity: $50,000
+                                                        </option>
+														<option > Liquidity: $100,000+
+                                                        </option>
+                                                    </select>
+                                                   
+                                                </div>
+
+
+
+                                                <button type="submit" class="tf-button style3">Submit</button>
+                                              
+                                            </form>
+                                        </form>
+                                        <p class="success" id="success3" style="color: black;">
+                                            Thank You For Filling the form. Our team will get in touch with you. Meanwhile -
+                                         </p>
+                                         <a type="submit" id="calender3" class="tf-button style1 text-center" style="display: none; color: black; ">Book A Call</a>
+
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -1467,7 +1535,16 @@ function tablaSubmit() {
   return false;
 }
 
-        
+function ownSubmit() {
+  document.getElementById("own-tabla1").style.display = "none";
+  document.getElementById("success3").style.display = "block";
+  document.getElementById("calender3").style.display = "block";
+  return false;
+}
+
+
+
+
         
      
 
