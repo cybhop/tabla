@@ -136,7 +136,7 @@
                         </div>
                       </div>
 
-                <div class="swiper mySwiper style-3 mySwiper3">
+                <div class="swiper mySwiper style-3 mySwiper3" style="height: 960px;">
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
@@ -164,7 +164,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-4 question" style="padding: 20px 20px; background-color: white; background-color: rgba(255,255,255,0.5); height: 900px;">
+                            <div class="col-md-4 question" style="padding: 20px 20px; background-color: white; background-color: rgba(255,255,255,0.5); height: 960px;">
                                     <div class="top" >
                                         <h5 style="font-size: 40px; text-align: center; margin-top: 30%;">Own A Tabla</h5>
                                     </div>
