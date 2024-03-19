@@ -46,7 +46,7 @@
         <header id="header_main" class="header style-3 style-absolute">
             <div class="container" style="margin-top:-20px;">
                 <div id="site-header-inner">
-                    <div class="" style="margin-left: -20px; margin-top: 40px;">
+                    <div class="tabla-logo" style="margin-left: -20px; margin-top: 40px;">
                         <a href="index.html" style = "padding-left: 10px; "><img src="assets/images/logo/tablalogo.png" style="height: 80px; "  alt=""></a>
                     </div>
                     <nav id="main-nav" class="main-nav" style="margin-left: 40px;">
@@ -68,7 +68,7 @@
                             </li>
                         </ul>
                     </nav><!-- /#main-nav -->
-                    <a href="#" id="tabla-btn" class="tf-button style1" style="margin-top: 50px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Own a Tabla</a>
+                    <a href="#" id="tabla-btn" class="tf-button style1" style="margin-top: 50px; color: black;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Own a Tabla</a>
 
                     <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
                 </div>
@@ -164,36 +164,37 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-4 question" style="padding: 20px 20px; background-color: white; background-color: rgba(255,255,255,0.5); height: 960px;">
+                            <div class="col-md-4 question" style="height: 960px;">
                                     <div class="top" >
-                                        <h5 style="font-size: 40px; text-align: center; margin-top: 30%;">Own A Tabla</h5>
+                                        <h5 style="font-size: 30px; text-align: center; background-color: #313e48; color: #fec52d; margin-bottom: 0px; height: 150px; padding: 25px 5px;">For Franchise Information , Please call <span style="color: white;">+1 123 234 345</span></h5>
                                     </div>
-                                    <div class="main">
+                                    <div class="main" style="padding: 20px 20px; background-color: white; background-color: rgba(255,255,255,0.8); height: 880px;">
+                                    <h5 style="font-size: 40px; text-align: center; margin-top: 25%;">Own A Tabla</h5>
                                         <form action="" class="s2" id="own-tabla1" method="GET"  onsubmit="return ownSubmit();">
                                             <p></p>
                                             <form>
                                                 <div class="form-group">
 													<div class="row g-6">
 													 <div class="col">
-                                                       <input type="text" class="form-control" id="name" placeholder="Name*" style="color: black;" required />
+                                                       <input type="text" class="form-control" id="name" placeholder="Name*" style="color: black; border: 1px solid black;" required />
 													  </div>
                                                     </div> 
                                                     <div class="row g-6">
 												    	<div class="col">
-                                                       <input type="text" class="form-control" id="phone" placeholder="Phone*" style="color: black;" required />
+                                                       <input type="text" class="form-control" id="phone" placeholder="Phone*" style="color: black; border: 1px solid black;" required />
 													  </div>
 													</div>
-                                                    <input type="email" class="form-control" id="email" placeholder="mail@*" style="color: black;" required />
+                                                    <input type="email" class="form-control" id="email" placeholder="mail@*" style="color: black; border: 1px solid black;" required />
                                                      <div class="row g-3">
 													 <div class="col">
-                                                    <input type="text" class="form-control" id="city" placeholder="City, State*" style="color: black;" required />
+                                                    <input type="text" class="form-control" id="city" placeholder="City, State*" style="color: black; border: 1px solid black;" required />
 													</div>
 													<div class="col">
-                                                    <input type="text" class="form-control" id="area" placeholder="Area*" style="color: black;" />
+                                                    <input type="text" class="form-control" id="area" placeholder="Area*" style="color: black; border: 1px solid black;" />
 													</div>
 													</div>
 
-                                                    <select class="form-control" id="franchiseModel" style="border: 1px solid #892430; border-radius: 0; color: #892430;  margin-bottom: 19px; box-shadow: none;  background: #fff;">
+                                                    <select class="form-control" id="franchiseModel" style="border: 1px solid #892430; border-radius: 0; color: #892430;  margin-bottom: 19px; box-shadow: none;  background: #fff; border: 1px solid black;">
                                                         <option selected>
                                                             Fine Dine Model
                                                         </option>
@@ -204,7 +205,7 @@
                                                         </option>
                 
                                                     </select>
-                                                   <select class="form-control" id="liquidity" style="border: 1px solid #892430; border-radius: 0; color: #892430;  margin-bottom: 19px; box-shadow: none;  background: #fff;">
+                                                   <select class="form-control" id="liquidity" style="border: 1px solid #892430; border-radius: 0; color: #892430;  margin-bottom: 19px; box-shadow: none;  background: #fff; border: 1px solid black;">
                                                         <option >
                                                             Liquidity: $25,000
                                                         </option>
@@ -221,7 +222,7 @@
 
 
 
-                                                <button type="submit" class="tf-button style3">Submit</button>
+                                                <button type="submit" class="tf-button style3" style="border: 1px solid black;">Submit</button>
                                               
                                             </form>
                                         </form>
@@ -710,7 +711,7 @@
                     <div class="content">
                         <div class="block-text center">
                             <p class="subtitle" data-aos-duration="1000" data-aos="fade-up">Fast Casual</p>
-                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">And a fast casual for cafe enthusiasts
+                            <h3 class="title" data-aos-duration="1000" data-aos="fade-up">Fast casual for cafe enthusiasts
                             </h3>
                             <div class="divider wow fadeInUp"><div></div></div>
                              <p class="text" data-aos-duration="1000" data-aos="fade-up">Tabla is the first fine dining Indian restaurant franchise. We have been recognized as a premium restaurant in the Orlando, Florida area and now we offer this opportunity to franchise owners in new markets. We offer fresh, flavorful and authentic Indian and Indian fusion cuisine to guests with two ownership models for franchise owners: full-service fine dining and fast casual with a limited menu.  </p>
