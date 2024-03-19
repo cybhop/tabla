@@ -1097,7 +1097,7 @@ form button {
 }
 
 #header_main.is-fixed.is-small #main-nav .menu li a{
-  color: #000000;
+  color: #892430;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
 }
@@ -1118,7 +1118,7 @@ form button {
   height: 80px;
 }
 #header_main.is-fixed.style-2 {
-  background: black;
+  background: white;
 }
 
 #header_main.is-fixed.style-3.is-small {

@@ -42,6 +42,111 @@
     <!-- /preload -->
     <div id="wrapper">
 
+    <div class="top-bar-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-header">
+                            <div class="contact-left">
+                                <div class="icon"><i class="fa fa-utensils"></i></div>
+                                <div class="t">
+                                    <p>Basilicofood123@gmail.com </p>
+                                    <p>+(406) 555-0120</p>
+                                </div>
+                            </div>
+                            <div class="header__logo">
+                                <a href="index.html"><img src="assets/images/logo/tablalogo.png" alt="" style="height: 60px;  filter: brightness(0); border-radius: 10px;"></a>
+                            </div>
+                            <div class="contact-right">
+                                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="t">
+                                    <p>4517 Washington Ave. Manchester,
+                                    </p>
+                                    <p>Kentucky 39495, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Header -->
+         <header id="header_main" class="header style-2">
+            <div class="container">
+
+                <div id="site-header-inner" class="site-header-inner">
+                    <div class="search-form">
+                        <div class="input-box">
+                            <input type="text" placeholder="Search..." />
+                            <span class="search">
+                                <i class="fa fa-search"></i>
+                            </span>
+                            <i class="fa fa-x close-icon"></i>
+
+                        </div>
+
+                    </div>
+
+                    <nav id="main-nav" class="main-nav">
+                        <ul id="menu-primary-menu" class="menu">
+                            <li class="menu-item menu-item-has-children  ">
+                                <a href="#">Home</a>
+                             
+                            </li>
+
+                            <li class="menu-item menu-item-has-children current-menu-item">
+                                <a href="#">About</a>
+                   
+
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">Our Founders</a>
+                      
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">Investment</a>
+                   
+                            </li>
+
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">FAQ</a>
+                      
+                            </li>
+              
+                        </ul>
+                    </nav><!-- /#main-nav -->
+
+                    <div class="sidebar-btn">
+                        <a class="btn-side">
+                            <span></span>
+                        </a>
+                        <div class="sidebar-content">
+                            <img class="mb-50" src="assets/images/logo/logo-sidebar.png" alt="">
+                            <p class="mb-46">
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+                                dis parturient montes, nascetur ridiculus mus.
+                            </p>
+                            <h4 class="mb-11">+(406) 555-0120</h4>
+                            <p class="mb-5p">Andé Restaurant 767 5th Avenue, Paris 10021, France</p>
+                            <p class="mb-30">Brochetterestaurant@gmail.com</p>
+                            <div class="line"></div>
+                            <p>Opening Hour: <br />
+                                Mon - Fri : 9.00am - 22.00pm, Holidays : Close</p>
+                            <div class="line"></div>
+                            <ul class="list-social">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
+                </div>
+            </div>
+        </header>
+
+
         <!-- Header -->
         <header id="header_main" class="header style-3 style-absolute">
             <div class="container" style="margin-top:-20px;">
@@ -141,7 +246,7 @@
 
                 <div class="swiper-slide">
                     <div class="overlay">
-                        <img src="assets/images/slider/header.jpg" alt="">
+                        <img src="assets/images/section/bg-pagetitle.jpg" alt="">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -165,11 +270,11 @@
                                 </div>
                             </div>
                             <div class="col-md-4 question" style="height: 960px;">
-                                    <div class="top" >
+                                    <!---<div class="top" >
                                         <h5 style="font-size: 30px; text-align: center; background-color: #313e48; color: #fec52d; margin-bottom: 0px; height: 150px; padding: 25px 5px;">For Franchise Information , Please call <span style="color: white;">+1 123 234 345</span></h5>
-                                    </div>
-                                    <div class="main" style="padding: 20px 20px; background-color: white; background-color: rgba(255,255,255,0.8); height: 880px;">
-                                    <h5 style="font-size: 40px; text-align: center; margin-top: 25%;">Own A Tabla</h5>
+                                    </div>-->
+                                    <div class="main" style="padding: 20px 20px; background-color: white; background-color: rgba(255,255,255,0.8); height: 960px;">
+                                    <h5 style="font-size: 40px; text-align: center; margin-top: 30%;">Own A Tabla</h5>
                                         <form action="" class="s2" id="own-tabla1" method="GET"  onsubmit="return ownSubmit();">
                                             <p></p>
                                             <form>
@@ -747,7 +852,7 @@
                         <div class="choose-content">
                             <div class="block-text">
                                 <p class="subtitle" data-aos-duration="1000" data-aos="fade-up">why choose us</p>
-                                <h3 class="title" data-aos-duration="1000" data-aos="fade-up">Reasons to owna Tabla </h3>
+                                <h3 class="title" data-aos-duration="1000" data-aos="fade-up">Reasons to own a Tabla </h3>
 
                                 <div class="flat-tabs" data-aos-duration="1000" data-aos="fade-up" >
                                     <ul class="menu-tab" style="padding-left: 0;">
