@@ -165,9 +165,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 question" style="height: 960px;">
-                                    <div class="top" >
-                                        <h5 style="font-size: 30px; text-align: center; background-color: #313e48; color: #fec52d; margin-bottom: 0px; height: 150px; padding: 25px 5px;">For Franchise Information , Please call <span style="color: white;">+1 123 234 345</span></h5>
-                                    </div>
+                                    
                                     <div class="main" style="padding: 20px 20px; background-color: white; background-color: rgba(255,255,255,0.8); height: 880px;">
                                     <h5 style="font-size: 40px; text-align: center; margin-top: 25%;">Own A Tabla</h5>
                                         <form action="" class="s2" id="own-tabla1" method="GET"  onsubmit="return ownSubmit();">
